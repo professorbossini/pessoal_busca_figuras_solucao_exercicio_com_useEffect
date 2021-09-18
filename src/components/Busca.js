@@ -30,6 +30,7 @@ export default class Busca extends Component {
                             //largura máxima
                             className="w-full"
                             onChange={this.onTermoAlterado}
+                            placeholder={this.props.dica}
                         />
                     </span>                
                     <Button 
